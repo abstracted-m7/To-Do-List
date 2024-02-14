@@ -227,13 +227,13 @@ let categories = [
         selectedCategory = category;
         updateTotals();
         categoryTitle.innerHTML = category.title;
-        categoryImg.src = `TO-DO-LIST/images/${category.img}`;
+        categoryImg.src = `images/${category.img}`;
         renderTasks();
       });
   
       div.innerHTML = `
                     <div class="left">
-                  <img src="TO-DO-LIST/images/${category.img}"
+                  <img src="images/${category.img}"
                    alt="${category.title}"
                     />
                   <div class="content">
